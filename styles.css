@@ -1,0 +1,55 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: relative;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.social {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-bottom: 140px;
+}
+
+.social {
+  text-align: center;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  max-inline-size: 70%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-right: 25px;
+}
+
+.fa {
+  color:white;
+}
+
+.fa:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
