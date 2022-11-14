@@ -1,5 +1,15 @@
+/* General Demo Style */
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
 body {
-  overflow: hidden;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	background-color: black !important;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #myVideo {
@@ -13,7 +23,6 @@ body {
 .content {
   position: relative;
   bottom: 0;
-  color: #f1f1f1;
   width: 100%;
 }
 
@@ -27,29 +36,35 @@ img {
   block-size: auto;
 }
 
-.logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: auto;
-  max-width: 500px;
-  margin-bottom: 140px;
-}
-
 .social {
   text-align: center;
-  padding-top: 130px;
+  padding-top: 150px;
+  justify-content: center;
+}
+
+.social-header {
+  color: white;
+  font-family: lato;
+	font-size: 18pt;
+}
+
+.social-list {
+  padding-top: 20px;
+  text-align: center;
   display: flex;
   justify-content: center;
   max-inline-size: 70%;
   max-width: 400px;
   margin: 0 auto;
-  padding-right: 25px;
 }
 
-.fa {
-  color:white;
+.fa-twitter{
+  color:#1DA1F2;
+}
+
+.social-item {
+  height: 72px;
+  width: 72px;
 }
 
 .fa:hover {
