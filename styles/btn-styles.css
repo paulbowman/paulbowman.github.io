@@ -96,3 +96,13 @@ a:active {
 	color: black;
 	background: #fff;
 }
+
+.btn-group {
+  text-align: center;
+  justify-content: space-between;
+  max-inline-size: 70%;
+  margin: 0 auto;
+  padding-right: 25px;
+  max-height: 90px;
+  max-width: 90%;
+}

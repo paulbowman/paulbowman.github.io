@@ -1,6 +1,8 @@
-/* General Demo Style */
+/* Font Import */
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
+
+/* Base Element Styling */
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	background-color: black !important;
@@ -12,25 +14,40 @@ li {
   margin-right: 20px;
 }
 
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+img {
+  max-inline-size: 100%;
+  block-size: auto;
 }
 
+
+/* Ease-of-use Styles */
 .content {
   position: relative;
   bottom: 0;
   width: 100%;
 }
 
-img {
-  max-inline-size: 100%;
-  block-size: auto;
+.center {
+  text-align: center;
+  margin: auto;
 }
 
+
+/* Header Styling */
+.header-placement {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.typewritter {
+  animation: 1s steps(100);
+  overflow: hidden;
+  font-family: lato;
+  font-size: 2em;
+}
+
+
+/* Social Menu */
 .social {
   max-inline-size: 100%;
   block-size: auto;
@@ -54,7 +71,7 @@ img {
   display: flex;
   justify-content: center;
   max-inline-size: 70%;
-  max-width: 400px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -70,13 +87,4 @@ img {
 .fa:hover {
   opacity: 0.6;
   transition: 0.3s;
-}
-
-.btn-group {
-  text-align: center;
-  justify-content: space-between;
-  max-inline-size: 70%;
-  margin: 0 auto;
-  padding-right: 25px;
-  max-height: 90px;
 }
