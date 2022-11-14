@@ -1,0 +1,82 @@
+/* General Demo Style */
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	background-color: black !important;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.social {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.social {
+  text-align: center;
+  padding-top: 150px;
+  justify-content: center;
+}
+
+.social-header {
+  color: white;
+  font-family: lato;
+	font-size: 18pt;
+}
+
+.social-list {
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  max-inline-size: 70%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.fa-twitter{
+  color:#1DA1F2;
+}
+
+.social-item {
+  height: 72px;
+  width: 72px;
+}
+
+.fa:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.btn-group {
+  text-align: center;
+  justify-content: space-between;
+  max-inline-size: 70%;
+  margin: 0 auto;
+  padding-right: 25px;
+  max-height: 90px;
+}
