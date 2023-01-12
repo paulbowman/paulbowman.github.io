@@ -6,6 +6,8 @@
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	background-color: black !important;
+  position: relative;
+  overflow: hidden;
 }
 
 li {
@@ -37,25 +39,30 @@ img {
 .header-placement {
   padding-top: 40px;
   padding-bottom: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-.typewritter {
-  animation: 1s steps(100);
+.impaul {
+  animation: 0.7s steps(1000);
   overflow: hidden;
   font-family: lato;
-  font-size: 2em;
+  font-size: 120%;
+}
+
+.impaulimage {
+  width: 10%;
+  padding-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 /* Social Menu */
 .social {
-  max-inline-size: 100%;
-  block-size: auto;
-}
-
-.social {
-  text-align: center;
-  padding-top: 150px;
+  padding-top: 20px;
+  position: relative;
   justify-content: center;
 }
 

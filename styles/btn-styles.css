@@ -53,31 +53,40 @@ a:active {
 	font-style: normal;
 }
 
+.btn-group {
+	text-align: center;
+	justify-content: space-between;
+	max-inline-size: 70%;
+	margin: 0 auto;
+	padding-right: 25px;
+	max-height: 90px;
+	max-width: 90%;
+	display: table;
+}
+
 /* General button style (reset) */
 .btn {
 	border: none;
 	font-family: inherit;
-	font-size: 14pt;
+	font-size: 65%;
 	color: inherit;
 	background: none;
 	cursor: pointer;
 	padding: 25px 80px;
-	display: inline-block;
+	display: block;
 	margin: 15px 30px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
 	outline: none;
-	position: relative;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
-	width: 500px;
+	width: 90%;
 }
 
 .btn:after {
 	content: '';
-	position: absolute;
 	z-index: -1;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -95,14 +104,4 @@ a:active {
 .btn-1a:active {
 	color: black;
 	background: #fff;
-}
-
-.btn-group {
-  text-align: center;
-  justify-content: space-between;
-  max-inline-size: 70%;
-  margin: 0 auto;
-  padding-right: 25px;
-  max-height: 90px;
-  max-width: 90%;
 }
