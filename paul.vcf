@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Paul Bowman
+N;CHARSET=UTF-8:Bowman;Paul;;;
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:paulbowman.in@gmail.com
+TEL;TYPE=CELL:2605644353
+X-SOCIALPROFILE;TYPE=twitter:https://twitter.com/_paulbowman
+X-SOCIALPROFILE;TYPE=Website:https://www.paulbowman.live
+REV:2023-05-22T02:52:47.592Z
+END:VCARD
