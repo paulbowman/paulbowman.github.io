@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@600&display=swap');
+
 /* Base Element Styling */
 body {
+  font-family: 'Lato', serif;
 	background-color: black !important;
   position: relative;
   overflow: hidden;
@@ -112,6 +115,10 @@ p {
   max-width: 65%;
   text-align: left;
   text-indent: 25pt;
+}
+
+.contact-form{
+  max-width: 60%;
 }
 
 
