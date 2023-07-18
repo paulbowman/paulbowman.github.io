@@ -1,9 +1,5 @@
-/* Font Import */
-@import url(https://fonts.googleapis.com/css?family=Lato);
-
 /* Base Element Styling */
 body {
-	font-family: 'Lato', Calibri, Arial, sans-serif;
 	background-color: black !important;
   position: relative;
   overflow: hidden;
