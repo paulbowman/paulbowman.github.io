@@ -4,8 +4,6 @@
 body {
   font-family: 'Lato', serif;
 	background-color: black !important;
-  position: relative;
-  overflow: hidden;
   color: white;
   text-align: center;
 }
